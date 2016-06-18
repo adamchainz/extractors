@@ -12,8 +12,8 @@ from tesserwrap import Tesseract, PageSegMode
 from extractors.constants import _get_languages
 from extractors.cache import set_cache, get_cache
 
-# https://tesserwrap.readthedocs.org/en/latest/#
-# https://pillow.readthedocs.org/en/3.0.x/reference/Image.html
+# https://tesserwrap.readthedocs.io/en/latest/#
+# https://pillow.readthedocs.io/en/3.0.x/reference/Image.html
 log = logging.getLogger(__name__)
 TESSDATA_PREFIX = os.environ.get('TESSDATA_PREFIX')
 PDFTOPPM_BIN = os.environ.get('PDFTOPPM_BIN', 'pdftoppm')

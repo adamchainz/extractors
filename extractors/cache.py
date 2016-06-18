@@ -6,7 +6,7 @@ try:
 except ImportError:
     import pickle
 
-# consider https://dogpilecache.readthedocs.org/en/latest
+# consider https://dogpilecache.readthedocs.io/en/latest
 # also: locking :)
 log = logging.getLogger(__name__)
 CACHE_DIR = os.environ.get('EXTRACTORS_CACHE_DIR')
